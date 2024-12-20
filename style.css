@@ -170,7 +170,7 @@ ul{
         flex-direction: row;   
     }
     #logo{
-        font-size: 15px;
+        font-size: 5px;
     } 
     nav ul{
         display: flex;
