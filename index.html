@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Yuji+Mai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div id="logo">Shyam's Portfolio</div>
+            <div class="items">
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#skills">Skills</a></li>
+                <li class="item"><a href="#about">About us</a></li>
+                <li class="item"><a href="#contact">Contact us</a></li>
+          </ul>   
+        </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="left">
+                Hi, I Am <span id="shyam">Shyam </span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div id="btn">
+                
+                   <a id="btn1" class="btn" href="syamsatyanarayanapilli.resume.pdf"> <i class="fa-solid fa-file-contract"></i></a>
+                  <a id="btn2" class="btn" href="https://github.com/Syamsatyanarayana"> <i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="port.png" alt="image">
+            </div>
+        </section>
+        <section class="section2">
+           <hr class="hr">
+            <div class="who"><h1>Who am i ?</h1></div>
+          <ul id="about">
+            <li>A Guy Who is Persuing B-tech 3rd Year.</li>
+            <li>A Boy With Pocket full of Creativity. </li>
+            <li>A Person Who is Exploring Web Development.</li>
+          </ul>
+        </section>
+        <hr class="hr">
+        <section >
+            <h1 id="skills">Skills </h1>
+            <ul id="skilllist">
+                <li>Web Developer</li>
+                <li>DSA with Java</li>
+                <li>Good Communication Skills</li>
+                <li>Video Editor</li>
+                <li>Photographer</li>
+                <li>Meme page Editor</li>
+                
+            </ul>
+        </section>
+        <hr class="hr">
+        <footer class="contact-us">
+            <h1 id="contact">Contact Me</h1>
+            <div id="conatact-info">
+              <a  id= "email" href="mailto:syamsatyanarayanapilli@gmail.com" target="_blank"><i class="fa-solid fa-envelope" ></i></a>  &nbsp
+               <a  id= "insta" href="https://www.instagram.com/i_syampilli/" target="_blank"><i class="fa-brands fa-instagram" ></i></a>  &nbsp
+                 <a id= "link" href="https://www.linkedin.com/in/syampilli" target="_blank"><i class="fa-brands fa-linkedin" ></i></a> <br></div>
+                <div id="copy"> <h3>Copy right &#169;www.shyamportfolio.com|All Rights Reserved</h3></div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor', 'Meme Page Editor', 'Web Developer.'],
+            typeSpeed: 100,
+            loop: true,
+            backSpeed: 50
+        });
+      </script>
+      
+      <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</body>
+</html>
